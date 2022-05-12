@@ -1,0 +1,30 @@
+data{
+    border: 5px;
+}
+.Category{
+    border: 3px solid #00892c;
+    text-align: left;
+    padding: 50px;
+}
+.Drinks{
+    border: 2px solid #01762a;
+    text-align: left;
+    padding: 50px;
+}
+.td .th {
+    border: 2px solid #026924;
+    text-align: left;
+    padding: 75px;
+  }
+  .tab{
+      display: flex;
+      justify-content: space-around;
+  }
+  body{
+      background:linear-gradient(rgb(139, 228, 139) ,rgb(154, 211, 255),rgb(127, 244, 127));
+  }
+  .sc{
+      overflow-y: scroll;
+      margin-block: none;
+      height: 60px;
+  }
